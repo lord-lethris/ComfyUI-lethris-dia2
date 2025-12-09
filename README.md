@@ -58,6 +58,8 @@ Clone this repo into your ComfyUI `custom_nodes` folder:
 
 ```bash
   git clone https://github.com/lord-lethris/ComfyUI-lethris-dia2.git
+  cd ComfyUI-lethris-dia2
+  pip install -r requirements.txt
 ```
 
 Restart ComfyUI after installation.
@@ -79,7 +81,7 @@ CPU mode works but is slower.
 
 | FILE                  | Description |
 |-----------------------------|-------------|
-| [model.safetensors]([https://huggingface.co/nari-labs/Dia2-2B/resolve/main/model.safetensors](https://huggingface.co/nari-labs/Dia2-2B/resolve/main/model.safetensors?download=true))            | Dia2-2B model / weights file |
+| [model.safetensors](https://huggingface.co/nari-labs/Dia2-2B/resolve/main/model.safetensors?download=true)            | Dia2-2B model / weights file |
 | [tokenizer.json](https://huggingface.co/nari-labs/Dia2-2B/resolve/main/tokenizer.json?download=true)            | tokenizer |
 
 - Rename the weights file to:
