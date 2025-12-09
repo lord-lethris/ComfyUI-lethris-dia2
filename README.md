@@ -44,21 +44,50 @@ Generate high-quality text-to-speech and captions inside **ComfyUI** with ease. 
 
 ## Installation
 
-⚡ **GPU Users:** Dia2 requires CUDA 12.8 or higher. Make sure your NVIDIA drivers and PyTorch installation are compatible with CUDA 12.8+ for GPU acceleration. CPU mode works but is slower.
+⚡ GPU Users: Dia2 requires CUDA 12.8 or higher.
+Make sure your NVIDIA drivers and PyTorch installation are compatible.
+CPU mode works but is slower.
 
+1) Dia2 Model & Tokenizer
 
-1. Download Dia2-2B model & tokenizer from:  
+- Download the Dia2-2B model & tokenizer from:
+  https://huggingface.co/nari-labs/Dia2-2B/tree/main
 
-&nbsp;  https://huggingface.co/nari-labs/Dia2-2B/tree/main
+- Rename the weights file to:
+  Dia2-2B.safetensors
 
-2. Rename the weights file to:  
+- Place the model and tokenizer files in:
+  ComfyUI/models/Dia2/
 
-&nbsp;  Dia2-2B.safetensors
+2) Dia2 Node for ComfyUI
 
-3. Place the model and tokenizer files in:  
+You can install the node in Three ways:
 
-&nbsp;  ComfyUI/models/Dia2/
+## 📦 Install via ComfyUI Manager (Recommended 🎉)
 
+The node is now officially listed in **ComfyUI Manager**!
+
+To install:
+
+1. Launch **ComfyUI** and open **Manager** (via sidebar or `custom_nodes` menu).
+2. Go to the **Install Custom Nodes** tab.
+3. Search for: `"Dia2 TTS & Captions Generators for ComfyUI`
+4. Click **Install**
+5. Restart ComfyUI — you're ready to go!
+
+## 🛠️ Manual Installation (if needed)
+
+Clone this repo into your ComfyUI `custom_nodes` folder:
+
+```bash
+  git clone https://github.com/lord-lethris/ComfyUI-lethris-dia2.git
+```
+
+Restart ComfyUI after installation.
+
+✅ After installation, you should see:
+- 🗣️ Dia2 TTS Generator
+- 💬 Dia2 Captions Generator
 
 
 ---
