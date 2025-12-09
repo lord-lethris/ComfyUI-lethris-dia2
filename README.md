@@ -40,29 +40,6 @@ Generate high-quality text-to-speech and captions inside **ComfyUI** with ease. 
 
 ---
 
-
-
-## Installation
-
-⚡ GPU Users: Dia2 requires CUDA 12.8 or higher.
-Make sure your NVIDIA drivers and PyTorch installation are compatible.
-CPU mode works but is slower.
-
-1) Dia2 Model & Tokenizer
-
-- Download the Dia2-2B model & tokenizer from:
-  https://huggingface.co/nari-labs/Dia2-2B/tree/main
-
-- Rename the weights file to:
-  Dia2-2B.safetensors
-
-- Place the model and tokenizer files in:
-  ComfyUI/models/Dia2/
-
-2) Dia2 Node for ComfyUI
-
-You can install the node in Three ways:
-
 ## 📦 Install via ComfyUI Manager (Recommended 🎉)
 
 The node is now officially listed in **ComfyUI Manager**!
@@ -88,6 +65,25 @@ Restart ComfyUI after installation.
 ✅ After installation, you should see:
 - 🗣️ Dia2 TTS Generator
 - 💬 Dia2 Captions Generator
+
+## Model & Tokenizer Installation
+
+⚡ GPU Users: Dia2 requires CUDA 12.8 or higher.
+Make sure your NVIDIA drivers and PyTorch installation are compatible.
+CPU mode works but is slower.
+
+1) Dia2 Model & Tokenizer
+
+- Download the Dia2-2B model & tokenizer from:
+  https://huggingface.co/nari-labs/Dia2-2B/tree/main
+
+- Rename the weights file to:
+  Dia2-2B.safetensors
+
+- Place the model and tokenizer files in:
+  ComfyUI/models/Dia2/
+
+2) Dia2 Node for ComfyUI
 
 
 ---
