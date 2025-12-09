@@ -77,13 +77,16 @@ CPU mode works but is slower.
 - Download the Dia2-2B model & tokenizer from:
   https://huggingface.co/nari-labs/Dia2-2B/tree/main
 
+| FILE                  | Description |
+|-----------------------------|-------------|
+| [model.safetensors]([https://huggingface.co/nari-labs/Dia2-2B/resolve/main/model.safetensors](https://huggingface.co/nari-labs/Dia2-2B/resolve/main/model.safetensors?download=true))            | Dia2-2B model / weights file |
+| [tokenizer.json](https://huggingface.co/nari-labs/Dia2-2B/resolve/main/tokenizer.json?download=true)            | tokenizer |
+
 - Rename the weights file to:
   Dia2-2B.safetensors
 
 - Place the model and tokenizer files in:
-  ComfyUI/models/Dia2/
-
-2) Dia2 Node for ComfyUI
+  /models/Dia2/
 
 
 ---
@@ -142,7 +145,7 @@ These show how to set up multi-speaker prompts and caption generation.
 
 
 
-- Always place your Dia2 model in the `ComfyUI/models/Dia2/` folder for proper usage.  
+- Always place your Dia2 model in the `/models/Dia2/` folder for proper usage.  
 
 - If weights are found in `diffusion_models`, the node will warn you but can still load them.  
 
