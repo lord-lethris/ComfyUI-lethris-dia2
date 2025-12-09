@@ -40,6 +40,8 @@ Generate high-quality text-to-speech and captions inside **ComfyUI** with ease. 
 
 ---
 
+[//]: <> (This is also a comment.)
+
 ## 📦 Install via ComfyUI Manager (Recommended 🎉)
 
 The node is now officially listed in **ComfyUI Manager**!
